@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @osuitdylon
+- 👀 I’m interested in ... Finding my purpose in life.
+- 🌱 I’m currently learning ... How hard coding really is and how I might have made a career choice mistake.
