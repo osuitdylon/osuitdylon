@@ -1,0 +1,29 @@
+def main():
+
+    height=float(input("Enter the height from which the ball is dropped in feet: "))
+
+    bounces=int(input("Enter the number of times the ball is allowed to continue bouncing: "))
+
+    bouncinessIndex = 0.6
+    
+    distance = 0
+
+    if bounces <=0:
+
+        distance = height
+
+    while bounces > 0:
+        
+        distance = distance + height
+        
+        height = height * bouncinessIndex
+        
+        distance = distance + height
+
+        bounces -= 1
+
+
+    print("Total Distance Traveled Is: " + str(round(distance, 2)) + "ft")
+
+
+main()
